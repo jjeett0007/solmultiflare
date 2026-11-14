@@ -52,7 +52,7 @@
     "ios": "bun expo run:ios",
     "ios:prebuild": "npx expo prebuild && bun expo run:ios",
     "lint": "eslint .",
-    "start": "node init && EXPO_USE_FAST_RESOLVER=1 bunx expo start -c",
+    "start": "EXPO_USE_FAST_RESOLVER=1 bunx expo start -c",
     "test": "bun run jest --watchAll",
     "web": "bun run expo start --web"
   },
